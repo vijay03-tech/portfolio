@@ -1,0 +1,224 @@
+/* ==========================================================================
+   1. GLOBAL RESET & FORCE VISIBILITY SETTINGS
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; /* Standard safe school fonts */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #0d0b21 0%, #120e2e 50%, #1a0b2e 100%) !important;
+    background-attachment: fixed !important;
+    color: #ffffff !important;
+    display: block !important;
+    padding: 40px 24px;
+}
+
+/* ==========================================================================
+   2. NAVIGATION HEADER
+   ========================================================================== */
+.top-nav {
+    display: block;
+    border-bottom: 2px solid #9d4edd;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.my-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00f2fe;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   3. STRUCTURAL CONTENT BLOCKS
+   ========================================================================== */
+.content-block {
+    display: block !important;
+    visibility: visible !important;
+    max-width: 1000px;
+    margin: 0 auto 60px auto;
+    padding: 32px;
+    background-color: rgba(22, 18, 51, 0.8);
+    border-radius: 16px;
+    border: 1px solid rgba(157, 78, 221, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* ==========================================================================
+   4. TYPOGRAPHY & TEXT HIGHLIGHTS
+   ========================================================================== */
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+h1 span {
+    color: #ff007f;
+}
+
+h2 {
+    font-size: 26px;
+    color: #00f2fe;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    color: #c084fc;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+p {
+    font-size: 16px;
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+/* ==========================================================================
+   5. EXPERTISE PROGRESS BARS
+   ========================================================================== */
+.skill-item {
+    margin-bottom: 24px;
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 15px;
+}
+
+.bar-bg {
+    width: 100%;
+    background-color: #0d0b21;
+    height: 18px;
+    border-radius: 9px;
+    overflow: hidden;
+    border: 1px solid #9d4edd;
+    padding: 2px;
+}
+
+.bar-fill-cyan {
+    width: 92%;
+    height: 100%;
+    background: linear-gradient(to right, #3b82f6, #00f2fe);
+    border-radius: 9px;
+}
+
+.bar-fill-pink {
+    width: 88%;
+    height: 100%;
+    background: linear-gradient(to right, #9d4edd, #ff007f);
+    border-radius: 9px;
+}
+
+/* ==========================================================================
+   6. MATRIX DEPLOYMENT (PROJECTS)
+   ========================================================================== */
+.card-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project-box {
+    background-color: #0d0b21;
+    padding: 24px;
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+}
+
+.project-title {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tech-stack {
+    font-family: monospace;
+    font-size: 13px;
+    color: #00f2fe;
+    margin-top: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* ==========================================================================
+   7. COMMUNICATIONS FORM & FOOTER
+   ========================================================================== */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #0d0b21;
+    border: 1px solid #9d4edd;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-field:focus {
+    border-color: #00f2fe;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(to right, #ff007f, #00f2fe);
+    border: none;
+    color: #0d0b21;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: opacity 0.2s;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: monospace;
+    font-size: 12px;
+    color: #9d4edd;
+    margin-top: 40px;
+    line-height: 1.5;
+}
