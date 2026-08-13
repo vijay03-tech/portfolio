@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay B | Projects Matrix</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body {
+            background: linear-gradient(135deg, #0d0b21 0%, #120e2e 50%, #1a0b2e 100%) !important;
+            background-attachment: fixed !important;
+            color: #ffffff !important;
+            padding: 40px 24px;
+        }
+        .top-nav { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #9d4edd; padding-bottom: 15px; margin-bottom: 40px; }
+        .my-logo { font-size: 28px; font-weight: bold; color: #00f2fe; text-transform: uppercase; text-decoration: none; }
+        .nav-links a { color: #cbd5e1; text-decoration: none; margin-left: 20px; font-weight: bold; font-size: 14px; }
+        .nav-links a:hover, .nav-links a.active { color: #ff007f; }
+        .content-block { max-width: 1000px; margin: 0 auto 40px auto; padding: 32px; background-color: rgba(22, 18, 51, 0.8); border-radius: 16px; border: 1px solid rgba(157, 78, 221, 0.3); }
+        h1 { font-size: 36px; color: #ff007f; margin-bottom: 24px; }
+        .grid-matrix { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .extended-card { background-color: #0d0b21; border: 1px solid #9d4edd; padding: 24px; border-radius: 12px; }
+        .card-title { font-size: 20px; font-weight: bold; color: #00f2fe; margin-bottom: 10px; }
+        .card-desc { font-size: 14px; color: #cbd5e1; margin-bottom: 16px; line-height: 1.5; }
+        .tech-pill { display: inline-block; background-color: rgba(255, 0, 127, 0.1); border: 1px solid #ff007f; color: #ff007f; padding: 4px 10px; font-size: 12px; border-radius: 6px; font-family: monospace; font-weight: bold; margin-right: 5px; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+
+    <div class="top-nav">
+        <a href="index.html" class="my-logo">Vijay B.</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+        </div>
+    </div>
+
+    <div class="content-block">
+        <h1>02. Complete Matrix Deployments</h1>
+        <div class="grid-matrix">
+            
+            <div class="extended-card" style="border-color: #00f2fe;">
+                <div class="card-title">AI Predictive Engine</div>
+                <p class="card-desc">An automated deep-learning module utilizing specialized Python matrices to process massive data arrays and accurately forecast target numbers.</p>
+                <span class="tech-pill">Python</span><span class="tech-pill">Pandas</span><span class="tech-pill">SKLearn</span>
+            </div>
+
+            <div class="extended-card" style="border-color: #ff007f;">
+                <div class="card-title">Full-Stack Data Hub</div>
+                <p class="card-desc">A modular client dashboard engine working seamlessly alongside RESTful routing backends to safely save and parse query datasets.</p>
+                <span class="tech-pill">FastAPI</span><span class="tech-pill">PostgreSQL</span><span class="tech-pill">CSS Canvas</span>
+            </div>
+
+            <div class="extended-card" style="border-color: #9d4edd;">
+                <div class="card-title">Neural Classifier</div>
+                <p class="card-desc">Image processing engine running customized Convolutional Neural Networks (CNN) blocks to sort visual parameters based on matrix weightings.</p>
+                <span class="tech-pill">TensorFlow</span><span class="tech-pill">NumPy</span><span class="tech-pill">OpenCV</span>
+            </div>
+
+            <div class="extended-card" style="border-color: #00f2fe;">
+                <div class="card-title">Task Automation Scripts</div>
+                <p class="card-desc">A suite of localized background scripts constructed to automate daily repetitive file organization and log sorting processes smoothly.</p>
+                <span class="tech-pill">Python Core</span><span class="tech-pill">OS Module</span>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
