@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay B | About Me</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body {
+            background: linear-gradient(135deg, #0d0b21 0%, #120e2e 50%, #1a0b2e 100%) !important;
+            background-attachment: fixed !important;
+            color: #ffffff !important;
+            padding: 40px 24px;
+        }
+        .top-nav { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #9d4edd; padding-bottom: 15px; margin-bottom: 40px; }
+        .my-logo { font-size: 28px; font-weight: bold; color: #00f2fe; text-transform: uppercase; text-decoration: none; }
+        .nav-links a { color: #cbd5e1; text-decoration: none; margin-left: 20px; font-weight: bold; font-size: 14px; }
+        .nav-links a:hover, .nav-links a.active { color: #ff007f; }
+        .content-block { max-width: 1000px; margin: 0 auto 40px auto; padding: 32px; background-color: rgba(22, 18, 51, 0.8); border-radius: 16px; border: 1px solid rgba(157, 78, 221, 0.3); }
+        h1 { font-size: 36px; color: #00f2fe; margin-bottom: 20px; }
+        p { font-size: 16px; color: #cbd5e1; line-height: 1.6; margin-bottom: 16px; }
+        .highlight { color: #ff007f; font-weight: bold; }
+        .timeline { margin-top: 30px; }
+        .timeline-item { border-left: 2px solid #9d4edd; padding-left: 20px; margin-bottom: 20px; position: relative; }
+        .timeline-item::before { content: ''; position: absolute; left: -6px; top: 6px; width: 10px; height: 10px; background: #00f2fe; border-radius: 50%; }
+        .time-title { font-weight: bold; color: #ffffff; }
+        .time-date { font-size: 13px; color: #c084fc; font-family: monospace; }
+    </style>
+</head>
+<body>
+
+    <div class="top-nav">
+        <a href="index.html" class="my-logo">Vijay B.</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </div>
+
+    <div class="content-block">
+        <h1>01. Biography & Journey</h1>
+        <p>I am an aspiring tech developer and student focused on building the digital architectures of tomorrow. My fascination with computers began with logic puzzles, which naturally evolved into writing scripts in <span class="highlight">Python</span>, designing relational <span class="highlight">SQL databases</span>, and training baseline machine learning weights.</p>
+        <p>Currently, I am expanding my horizons in <span class="highlight">Full Stack Development</span>, mastering how to marry data tables with crisp, user-friendly interactive frontends. I believe engineering is about finding the optimal balance between performance constraints and visual aesthetic clarity.</p>
+    </div>
+
+    <div class="content-block">
+        <h1>Educational Timeline</h1>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="time-title">Full Stack Development Specialization</div>
+                <div class="time-date">2025 - Present</div>
+                <p>Focusing on modern UI workflows, API endpoints execution, and deep database modeling rules.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="time-title">Python Automation & AI Logic Foundations</div>
+                <div class="time-date">2024 - 2025</div>
+                <p>Studied mathematical statistics arrays, data modeling packages, and written autonomous scraping scripts.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
